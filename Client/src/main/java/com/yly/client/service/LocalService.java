@@ -15,4 +15,6 @@ public interface LocalService {
     void updateUser(Integer id);
 
     void transaction(Integer id);
+
+    void aop(Integer id);
 }

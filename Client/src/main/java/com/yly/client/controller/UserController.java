@@ -40,6 +40,11 @@ public class UserController {
     void transaction(@RequestParam Integer id) {
         localService.transaction(id);
     }
+
+    @GetMapping("/aop")
+    void aop(@RequestParam Integer id) {
+        localService.aop(id);
+    }
 }
 
 
